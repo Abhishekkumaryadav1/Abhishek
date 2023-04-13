@@ -1,0 +1,88 @@
+ .link{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
+
+} 
+.link1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
+
+}
+.link3{
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
+}
+.link4{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
+
+}
+.link5{
+    background-color:#05427B;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+color: #FFFFFF;
+
+}
+.sidebar{
+background: #FFCCCC;;
+border: 10px solid white;
+height:800px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+}
+.top-row{
+    background: #8482D1;
+    height:400px;
+}
+.top-col{
+    border: 10px solid white;
+
+}
+.lower-row{
+    background: #8482D1;
+    height:400px;
+
+}
+.lower-col{
+    border: 10px solid white;
+
+}
+.footer{
+    background-color: #735A43;
+    height:100px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
