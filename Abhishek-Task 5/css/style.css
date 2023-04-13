@@ -1,0 +1,287 @@
+.header-dashboard {
+    list-style-type: none;
+
+}
+
+.nav-color {
+    background: linear-gradient(180deg, rgba(101, 144, 255, 0.43) -6.06%, rgba(126, 154, 255, 0.47) 21.33%, rgba(197, 199, 255, 0.3) 50.12%, rgba(187, 176, 255, 0.409659) 75.6%, rgba(219, 202, 255, 0.96) 103.99%);
+}
+
+
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.dashboard1 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+
+
+    letter-spacing: 0.25px;
+
+    color: #333333;
+}
+
+
+.calendar {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+
+
+    letter-spacing: 0.25px;
+
+    color: #5630D3;
+}
+
+.project {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+
+    letter-spacing: 0.25px;
+
+    color: #333333;
+}
+
+.team {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+
+    color: #333333;
+
+}
+
+.setting {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+
+    color: #333333;
+
+}
+
+.logohere {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.8348px;
+    line-height: 36px;
+
+
+    letter-spacing: 0.25px;
+
+    color: #1E2875;
+
+}
+
+.search-btn {
+    border-radius: 5px;
+    color: white;
+}
+
+.month {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    letter-spacing: 0.25px;
+
+    color: #272830;
+
+}
+
+.leave {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+
+    letter-spacing: 0.25px;
+
+    color: #333333;
+}
+
+.table-head {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+
+    color: #333333;
+    background: linear-gradient(91.37deg, rgba(101, 144, 255, 0.43) 13.98%, rgba(126, 154, 255, 0.47) 34.04%, rgba(197, 199, 255, 0.72) 55.12%, rgba(187, 176, 255, 0.409659) 73.79%, rgba(219, 202, 255, 0.96) 94.58%)
+}
+
+.table-body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color: #000000;
+
+}
+
+.view-all {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+
+    letter-spacing: 0.25px;
+    text-decoration-line: underline;
+
+    color: #1E2875;
+}
+
+.tab-head {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.t-foot {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+
+
+    letter-spacing: 0.25px;
+
+    color: #333333;
+}
+
+.ser {
+    background-color: #5630D3;
+    color: white;
+}
+
+#scroll {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.p-tag {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.25px;
+
+    color: #5630D3;
+
+}
+
+.both1 {
+    float: right;
+    padding-right: 150px;
+    background: #FFFFFF;
+}
+
+.kinari {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.require {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+
+    color: #272830;
+}
+
+.jan {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+
+
+    letter-spacing: 0.25px;
+
+    color: #808080;
+}
+
+.viewall {
+    display: none;
+}
+
+.table2 {
+    display: none;
+}
+
+.birth {
+    width: 100%;
+    border:0;
+    background: linear-gradient(91.37deg, rgba(101, 144, 255, 0.43) 13.98%, rgba(126, 154, 255, 0.47) 34.04%, rgba(197, 199, 255, 0.72) 55.12%, rgba(187, 176, 255, 0.409659) 73.79%, rgba(219, 202, 255, 0.96) 94.58%);
+}
+.work{
+    width: 100%;
+    border:0;
+    background: linear-gradient(91.37deg, rgba(101, 144, 255, 0.43) 13.98%, rgba(126, 154, 255, 0.47) 34.04%, rgba(197, 199, 255, 0.72) 55.12%, rgba(187, 176, 255, 0.409659) 73.79%, rgba(219, 202, 255, 0.96) 94.58%);
+}
+.holidays{
+    width: 100%;
+    border:0;
+    background: linear-gradient(91.37deg, rgba(101, 144, 255, 0.43) 13.98%, rgba(126, 154, 255, 0.47) 34.04%, rgba(197, 199, 255, 0.72) 55.12%, rgba(187, 176, 255, 0.409659) 73.79%, rgba(219, 202, 255, 0.96) 94.58%);
+}
+
