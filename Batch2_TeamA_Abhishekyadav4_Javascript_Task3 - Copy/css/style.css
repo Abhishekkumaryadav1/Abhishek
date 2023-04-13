@@ -1,0 +1,141 @@
+/* /* .main-div{
+  background-color:black;
+  padding-top: 100px;
+  height: 100vh;
+
+ 
+} */
+
+body {
+  background-color: black;
+}
+
+.container {
+  font-family: poppins;
+  font-weight: 500;
+  padding: 30px;
+  border: 2px solid blue;
+  background-color: grey;
+  box-shadow: 3px 3px 10px white;
+  
+
+
+}
+
+/* add hover effect on add button */
+#addhover:hover {
+  background-color: chocolate;
+  color: white;
+}
+
+/* add hover effect on delete button */
+#deletehover:hover {
+  background-color: orange;
+  color: white;
+}
+
+#submitbtn:hover {
+  background-color: orange;
+}
+
+.error {
+  color: red;
+  
+}
+
+@keyframes shake {
+  5% {
+    transform: translateX(4px);
+  }
+
+  10% {
+    transform: translateX(-4px);
+  }
+
+  15% {
+    transform: translateX(4px);
+  }
+  
+  20% {
+    transform: translateX(-4px);
+  }
+
+  25% {
+    transform: translateX(4px);
+  }
+  30% {
+    transform: translateX(-4px);
+  }
+  35% {
+    transform: translateX(4px);
+  }
+
+  40% {
+    transform: translateX(-4px);
+  }
+
+  45% {
+    transform: translateX(4px);
+  }
+  
+  50% {
+    transform: translateX(-4px);
+  }
+
+  55% {
+    transform: translateX(4px);
+  }
+  60% {
+    transform: translateX(-4px);
+  }
+  65% {
+    transform: translateX(4px);
+  }
+
+  70% {
+    transform: translateX(-4px);
+  }
+
+  75% {
+    transform: translateX(4px);
+  }
+  
+  80% {
+    transform: translateX(-4px);
+  }
+
+  85% {
+    transform: translateX(4px);
+  }
+
+  90% {
+    transform: translateX(4px);
+  }
+  
+  95% {
+    transform: translateX(4px);
+  }
+  
+  
+
+
+}
+
+ .mediaquery{
+  display: none;
+}
+@media(max-width:767px){
+     .mediaquery{
+
+       display: block;
+     }
+} 
+@media(max-width:991px){
+  .mediaquery{
+
+    display: block;
+  }
+}
+.edit{
+  padding-right: 30px;
+}
