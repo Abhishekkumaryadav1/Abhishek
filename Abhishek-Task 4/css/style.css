@@ -1,0 +1,189 @@
+body{
+   
+    background: radial-gradient(50% 50% at 50% 50%, #FFE6E6 0%, rgba(217, 217, 217, 0) 100%);
+
+}
+
+.top-view{
+    background: #2F80ED;
+
+}
+
+.navbar{
+    padding: 0%;
+}
+  .main{
+    margin: 50px auto;
+    width: 90%;
+  }
+.learn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 46px; 
+    color: #1D1D1F;
+    
+}
+.paragraph{
+    font-family: 'SVN-Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+color: #4F4F4F;
+}
+.tutorial{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+text-transform: uppercase;
+
+color: #1D1D1F;
+
+}
+.static{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+text-transform: uppercase;
+color: #1D1D1F;
+
+}
+ .advance1{
+  border: none;
+  background-color: lightslategray;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+
+
+color: #0066FF;
+} 
+/* @media only screen and (max-width: 991px) {
+   .value{
+    text-align: end;
+   } */
+  }
+  .adv{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 140%;
+color: #0066FF;
+  }
+  .java{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+text-transform: uppercase;
+
+color: #323232;
+
+  }
+  .lorem{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #828282;
+  }
+  .comm{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+color: #323232;
+  }
+  .feb{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+color: #323232;
+  }
+  .btn-add{
+    background-color: #0066FF;
+    width:70%;
+    padding: 13px 40px 13px 32px;
+    gap: 8px;
+    border-radius: 8px;
+    
+  }
+  .contact{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 140%;
+text-align: center;
+text-transform: uppercase;
+
+color: #000054;
+  }
+  .name{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: rgba(131, 131, 131, 0.8);
+
+  }
+  /* .send{
+    width:30%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+  } */
+.lazy-dog{
+  font-family: 'SVN-Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373; 
+
+}
+/* .foot2{
+  font-family: 'SVN-Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #737373;
+
+} */
+#scroll{
+  height:850px;
+  overflow-y: scroll;
+}
+.add-button{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 45px 8px 45px;
+gap: 8px;
+background: #0066FF;
+border-radius: 8px;
+border: none;
+}
