@@ -1,0 +1,35 @@
+.error{
+    color:red;
+}
+#submitbtn:hover{
+    color: green;
+    background-color: orange;
+
+}
+
+.modal-dialog {
+   max-width: 50% !important;
+}
+.mediaquery{
+    display: none;
+  }
+  @media(max-width:767px){
+       .mediaquery{
+  
+         display: block;
+       }
+  } 
+  @media(max-width:991px){
+    .mediaquery{
+  
+      display: block;
+    }
+  }
+  .edit{
+    padding-right: 30px;
+  }
+  .modify{
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+    background-color:aquamarine;
+  }
+  

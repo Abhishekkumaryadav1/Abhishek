@@ -1,0 +1,171 @@
+{
+   "data":[
+    {
+      "id": 1,
+      "firstname": "Stanton",
+      "lastname": "Tom",
+      "dob": "2020-06-01",
+      "email": "stantontodd@gynko.com",
+      "address": "728 Albee Square, Strong, Colorado, 3322",
+      "education": [
+        {
+          "educationId": 1,
+          "degree": "B.Tech",
+          "college": "Sipna",
+          "startDate": "2020-06-01",
+          "passOutYear":"2020-06-01",
+          "percentage": 60,
+          "backlog": 5
+        },
+        {
+          "educationId": 2,
+          "degree": "12TH",
+          "college": "P.R.Pote",
+          "startDate": "2020-06-01",
+          "passOutYear": "2020-06-01",
+          "percentage": 60,
+          "backlog": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstname": "Bobbie",
+      "lastname": "Walker",
+      "dob": "2020-06-01",
+      "email": "bobbiewalker@gynko.com",
+      "address": "229 Homecrest Avenue, Moscow, Puerto Rico, 8420",
+      "education": [
+        {
+          "educationId": 1,
+          "degree": "Diploma",
+          "college": "Sipna",
+          "startDate": "2020-06-01",
+          "passOutYear":"2020-06-01",
+          "percentage": 60,
+          "backlog": 5
+        },
+        {
+          "educationId": 2,
+          "degree": "10TH",
+          "college": "I.I.T.",
+          "startDate": "2020-06-01",
+          "passOutYear": "2020-06-01",
+          "percentage": 60,
+          "backlog": 5
+        },
+        {
+          "educationId": 3,
+          "degree": "B.Tech",
+          "college": "P.R.Pote",
+          "startDate": "2020-06-01",
+          "passOutYear": "2020-06-01",
+          "percentage": 60,
+          "backlog": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "firstname": "Susie",
+      "lastname": "Gay",
+      "dob": "2020-06-01",
+      "email": "susiegay@gynko.com",
+      "address": "681 Lake Street, Gordon, Wisconsin, 5114",
+      "education": [
+        {
+          "educationId": 1,
+          "degree": "Pharamacy",
+          "college": "G.T.U.",
+          "startDate": "2020-06-01",
+          "passOutYear":"2020-06-01",
+          "percentage": 60,
+          "backlog": 1
+        },
+        {
+          "educationId": 2,
+          "degree": "B.Tech",
+          "college": "V.M.V.",
+          "startDate": "2020-06-01",
+          "passOutYear": "2020-06-01",
+          "percentage": 60,
+          "backlog": 1
+        },
+        {
+          "educationId": 3,
+          "degree": "12TH",
+          "college": "Vidhya Bharti",
+          "startDate": "2020-06-01",
+          "passOutYear":"2020-06-01",
+          "percentage": 60,
+          "backlog": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "firstname": "Abby",
+      "lastname": "Petty",
+      "dob": "2020-06-01",
+      "email": "abbypetty@gynko.com",
+      "address": "611 Roder Avenue, Moraida, Maryland, 2163",
+      "education": [
+        {
+          "educationId": 1,
+          "degree": "Diploma",
+          "college": "H.V.P.M.",
+          "startDate": "2020-06-01",
+          "passOutYear":"2020-06-01",
+          "percentage": 60,
+          "backlog": 4
+        },
+        {
+          "educationId": 2,
+          "degree": "B.Tech",
+          "college": "Vidhya Bharti",
+          "startDate": "2020-06-01",
+          "passOutYear": "2020-06-01",
+          "percentage": 60,
+          "backlog": 5
+        },
+        {
+          "educationId": 3,
+          "degree": "Pharamacy",
+          "college": "H.V.P.M.",
+          "startDate": "2020-06-01",
+          "passOutYear": "2020-06-01",
+          "percentage": 60,
+          "backlog": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "firstname": "Meagan",
+      "lastname": "Macias",
+      "dob": "2020-06-01",
+      "email": "meaganmacias@gynko.com",
+      "address": "590 Chester Street, Garnet, Missouri, 1550",
+      "education": [
+        {
+          "educationId": 1,
+          "degree": "B.Tech",
+          "college": "H.V.P.M.",
+          "startDate": "2020-06-01",
+          "passOutYear": "2020-06-01",
+          "percentage": 60,
+          "backlog": 3
+        },
+        {
+          "educationId": 2,
+          "degree": "12TH",
+          "college": "Vidhya Bharti",
+          "startDate": "2020-06-01",
+          "passOutYear":"2020-06-01",
+          "percentage": 60,
+          "backlog": 3
+        }
+      ]
+    }
+  ]
+}

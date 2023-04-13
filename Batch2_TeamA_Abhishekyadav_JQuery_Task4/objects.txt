@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Tiger Nixon",
+      "dob": "1999-02-12",
+      "email": "tiger@gmail.com",
+      "address": "Paris"
+     
+    },
+    {
+      "id": "2",
+      "name": "Garrett Winters",
+      "dob": "2000-02-12",
+      "email": "garrett@gmail.com",
+      "address": "England"
+    
+    },
+     {
+      "id": "3",
+      "name": "Abhishek kumar",
+      "dob": "2002-10-22",
+      "email": "abhishek@gmail.com",
+      "address": "Bihar"
+    
+    },
+    {
+      "id": "4",
+      "name": "Shivank",
+      "dob": "2000-02-14",
+      "email": "shivank@gmail.com",
+      "address": "Gujrat"
+    
+    },
+    {
+      "id": "5",
+      "name": "Rohit",
+      "dob": "2003-02-11",
+      "email": "rohit@gmail.com",
+      "address": "Dharbhanga"
+    
+    }
+    
+  ]
+}

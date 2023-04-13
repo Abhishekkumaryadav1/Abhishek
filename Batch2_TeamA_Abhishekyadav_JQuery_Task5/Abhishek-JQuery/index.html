@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <title>Document</title>
+</head>
+
+<body style="background-color:aquamarine;">
+
+    <div class="container mt-5 mb-3">
+        <form name="myForm" id="resetForm">
+
+            <button type="button" class="btn btn-primary float-end mb-3" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">
+                Add Details
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content bg-black text-white space">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Education Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-6 ">
+                                    <label for="exampleInputfirstname" class="mb-2">First Name</label>
+                                    <input type="text" class="form-control" name="fname" id="Fname" required
+                                        class="innershadow" />
+                                    <p id="fnameerror" class="error font"></p>
+                                </div>
+                                <div class="col-6">
+                                    <label for="exampleInputlastname" class="mb-2">Last Name</label>
+                                    <input type="text" class="form-control" name="name" id="name" required />
+                                    <p id="nameerror" class="error"></p>
+                                </div>
+                                <div class="col-6">
+                                    <label for="exampleInputodob" class="mb-2">Date of Birth</label>
+                                    <input type="date" class="form-control" name="dob" id="dob" required />
+                                    <p id="doberror" class="error"></p>
+                                </div>
+                                <br><br><br>
+                                <div class="col-6">
+                                    <label for="exampleInputEmail" class="mb-2">Email</label>
+                                    <input type="email" class="form-control" name="emails" placeholder="S@gmail.com"
+                                        id="emails" required />
+                                    <p id="emailerror" class="error"></p>
+                                </div>
+                                <div class="col-12">
+                                    <label for="exampleInputaddress" class="mb-2">Address</label>
+                                    <input type="text" class="form-control" name="address" id="address" required />
+                                    <p id="addresserror" class="error"></p>
+                                </div>
+                            </div>
+                            <div class="row mt-5 mb-3">
+                                <div>
+                                    <h3>Education Details</h3>
+                                </div>
+                                <div>
+                                    <button class="btn btn-primary add float-end " id="addhover">
+                                        Add
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="parentform " id="submitbutton">
+                                <div class="row">
+                                    <div class="col-6 mb-2 col-md-1 ">
+                                        <label for="exampleInputDegree" class="mb-2 mb-md-0">Degree</label>
+                                        <select class="form-select " id="degree0" aria-label="Default select example">
+                                            <option value="" selected>Select</option>
+                                            <option value="B.Tech">B.Tech</option>
+                                            <option value="Pharamacy">Pharamacy</option>
+                                            <option value="Diploma">Diploma</option>
+                                            <option value="12TH">12TH</option>
+                                            <option value="10TH">10TH</option>
+                                        </select>
+                                        <div id="degreerror0" class="error"></div>
+
+                                    </div>
+                                    <div class="col-6 mb-2 col-md-2 ">
+                                        <label for="exampleInputSchoolCollege" class="mb-2 mb-md-0">Institute
+                                            Name</label>
+                                        <input type="text" class="form-control " id="institutename0" required
+                                            placeholder="Institute Name" />
+                                        <div id="insterror0" class="error"></div>
+                                    </div>
+                                    <div class="col-6 mb-2 col-md-2 ">
+                                        <label for="exampleInputStartedYear" class="mb-2 mb-md-0">Started Date</label>
+                                        <input type="month" class="form-control " id="startdate0" required />
+                                        <div id="startdateerror0" class="error"></div>
+                                    </div>
+                                    <div class="col-6 mb-2 col-md-2 ">
+                                        <label for="exampleInputPassoutYear" class="mb-2 mb-md-0">Passout Year</label>
+                                        <input type="month" class="form-control " id="passout0" required />
+                                        <div id="passouterror0" class="error"></div>
+                                    </div>
+                                    <div class="col-6 mb-2 col-md-2 ">
+                                        <label for="exampleInputPercentage" class="mb-2 mb-md-0">Percentage</label>
+                                        <input type="number" class="form-control" id="percentage0"
+                                            placeholder="Do Not Write %" min="0" required />
+                                        <div id="percentageerror0" class="error"></div>
+                                    </div>
+                                    <div class="col-6 mb-2 col-md-1 ">
+                                        <label for="exampleInputBacklogs" class="mb-2 mb-md-0 backlog">Backlogs</label>
+                                        <input type="number" class="form-control " id="backlog0" min="0"
+                                            placeholder="If Any" required />
+                                        <div id="backlogerror0" class="error"></div>
+                                    </div>
+                                    <div
+                                        class="col-12 col-md-2 mb-md-2 d-flex align-items-center justify-content-center">
+                                        <label for="action" class="mb-2 "></label>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-5 mediaquery">
+                                    <div class="col-6 mb-2 col-md-1 ">
+                                        <label for="exampleInputDegree" class="mb-2 mb-md-0 mediaquery">Degree</label>
+                                        <select class="form-select " id="degree1" aria-label="Default select example">
+                                            <option value="" selected>Select</option>
+                                            <option value="B.Tech">B.Tech</option>
+                                            <option value="Pharamacy">Pharamacy</option>
+                                            <option value="Diploma">Diploma</option>
+                                            <option value="12TH">12TH</option>
+                                            <option value="10TH">10TH</option>
+                                        </select>
+                                        <div id="degreerror1" class="error"></div>
+
+                                    </div>
+                                    <div class="col-6 mb-2 col-md-2 ">
+                                        <label for="exampleInputSchoolCollege"
+                                            class="mb-2 mb-md-0 mediaquery ">Institute
+                                            Name</label>
+                                        <input type="text" class="form-control " id="institutename1" required
+                                            placeholder="Institute Name" />
+                                        <div id="insterror1" class="error"></div>
+                                    </div>
+                                    <div class="col-6 mb-2 col-md-2 ">
+                                        <label for="exampleInputStartedYear" class="mb-2 mb-md-0 mediaquery">Started
+                                            Date</label>
+                                        <input type="month" class="form-control " id="startdate1" required />
+                                        <div id="startdateerror1" class="error"></div>
+                                    </div>
+                                    <div class="col-6 mb-2 col-md-2 ">
+                                        <label for="exampleInputPassoutYear" class="mb-2 mb-md-0 mediaquery">Passout
+                                            Year</label>
+                                        <input type="month" class="form-control  " id="passout1" required />
+                                        <div id="passouterror1" class="error"></div>
+                                    </div>
+                                    <div class="col-6 mb-2 col-md-2 ">
+                                        <label for="exampleInputPercentage"
+                                            class="mb-2 mb-md-0 mediaquery">Percentage</label>
+                                        <input type="number" class="form-control " id="percentage1"
+                                            placeholder="Do Not Write %" min="0" required />
+                                        <div id="percentageerror1" class="error"></div>
+                                    </div>
+                                    <div class="col-6 mb-2 col-md-1 ">
+                                        <label for="exampleInputBacklogs"
+                                            class="mb-2 mb-md-0 backlog mediaquery">Backlogs</label>
+                                        <input type="number" class="form-control " id="backlog1" placeholder="If Any"
+                                            min="0" required />
+                                        <div id="backlogerror1" class="error"></div>
+                                    </div>
+                                    <div
+                                        class="col-12 col-md-2 mb-md-2 d-flex align-items-center justify-content-center">
+                                        <label for="action" class="mb-2 "></label>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn bg-primary text-white" id="submitbtn">Submit</button>
+                                <!-- <button type="button" class="btn bg-primary text-white" id="updatebtn">Update</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+    <div class="container">
+
+        <table id="datatable" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Sr No</th>
+                    <th>Name</th>
+                    <th>Dob</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+        </table>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="//cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="module" src="js/importarray.js"></script>
+</body>
+
+</html>

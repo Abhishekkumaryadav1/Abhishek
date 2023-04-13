@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Tiger Nixon",
+      "dob": "2011/04/25",
+      "email": "abhishek@gmail.com",
+      "address": "bihar",
+      "extn": ""
+    },
+     {
+      "id": "2",
+      "name": "Garrett Winters",
+      "dob": "2000/05/22",
+      "email": "greet@gmail.com",
+      "address": "England",
+      "extn": ""
+    },
+    {
+      "id": "3",
+      "name": "Ashton Cox",
+      "dob": "2001/08/21",
+      "email": "asthon@gmail.com",
+      "address": "Paris",
+      "extn": ""
+    },
+    {
+      "id": "4",
+      "name": "Cedric Kelly",
+      "dob": "2012/09/02",
+      "email": "cedric@gmail.com",
+      "address": "London",
+      "extn": ""
+    },
+    {
+      "id": "5",
+      "name": "Airi Satou",
+      "dob": "1999/03/03",
+      "email": "airi@gmail.com",
+      "address": "Canada",
+      "extn": ""
+    }
+
+  ]
+}

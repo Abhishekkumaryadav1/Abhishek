@@ -1,0 +1,166 @@
+{
+   "data":[
+    {
+      "id": 1,
+      "name": "Stanton Todd",
+      "dob": "Mon Jun 01 2020",
+      "email": "stantontodd@gynko.com",
+      "address": "728 Albee Square, Strong, Colorado, 3322",
+      "education": [
+        {
+          "educationId": 1,
+          "degree": "M.TECH",
+          "college": "Sipna",
+          "startDate": "Jun 30 1973",
+          "passOutYear": 1993,
+          "percentage": 60,
+          "backlog": 5
+        },
+        {
+          "educationId": 2,
+          "degree": "M.COM",
+          "college": "P.R.Pote",
+          "startDate": "May 15 2001",
+          "passOutYear": 2015,
+          "percentage": 60,
+          "backlog": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bobbie Walker",
+      "dob": "Wed Apr 13 2011",
+      "email": "bobbiewalker@gynko.com",
+      "address": "229 Homecrest Avenue, Moscow, Puerto Rico, 8420",
+      "education": [
+        {
+          "educationId": 1,
+          "degree": "M.COM",
+          "college": "Sipna",
+          "startDate": "Jun 25 2009",
+          "passOutYear": 2005,
+          "percentage": 60,
+          "backlog": 5
+        },
+        {
+          "educationId": 2,
+          "degree": "B.B.A",
+          "college": "I.I.T.",
+          "startDate": "Apr 28 2017",
+          "passOutYear": 1976,
+          "percentage": 60,
+          "backlog": 5
+        },
+        {
+          "educationId": 3,
+          "degree": "B.COM",
+          "college": "P.R.Pote",
+          "startDate": "Oct 01 1986",
+          "passOutYear": 2000,
+          "percentage": 60,
+          "backlog": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Susie Gay",
+      "dob": "Mon Mar 03 1975",
+      "email": "susiegay@gynko.com",
+      "address": "681 Lake Street, Gordon, Wisconsin, 5114",
+      "education": [
+        {
+          "educationId": 1,
+          "degree": "M.E.",
+          "college": "G.T.U.",
+          "startDate": "Jan 20 2014",
+          "passOutYear": 1990,
+          "percentage": 60,
+          "backlog": 1
+        },
+        {
+          "educationId": 2,
+          "degree": "M.E.",
+          "college": "V.M.V.",
+          "startDate": "Jan 10 1989",
+          "passOutYear": 1973,
+          "percentage": 60,
+          "backlog": 1
+        },
+        {
+          "educationId": 3,
+          "degree": "M.E.",
+          "college": "Vidhya Bharti",
+          "startDate": "Oct 23 2010",
+          "passOutYear": 1979,
+          "percentage": 60,
+          "backlog": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Abby Petty",
+      "dob": "Sun Jan 26 1975",
+      "email": "abbypetty@gynko.com",
+      "address": "611 Roder Avenue, Moraida, Maryland, 2163",
+      "education": [
+        {
+          "educationId": 1,
+          "degree": "M.COM",
+          "college": "H.V.P.M.",
+          "startDate": "Mar 25 1983",
+          "passOutYear": 2004,
+          "percentage": 60,
+          "backlog": 4
+        },
+        {
+          "educationId": 2,
+          "degree": "B.E.",
+          "college": "Vidhya Bharti",
+          "startDate": "Aug 26 2012",
+          "passOutYear": 1970,
+          "percentage": 60,
+          "backlog": 5
+        },
+        {
+          "educationId": 3,
+          "degree": "B.B.A",
+          "college": "H.V.P.M.",
+          "startDate": "Dec 23 2011",
+          "passOutYear": 1970,
+          "percentage": 60,
+          "backlog": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Meagan Macias",
+      "dob": "Fri Jul 16 1976",
+      "email": "meaganmacias@gynko.com",
+      "address": "590 Chester Street, Garnet, Missouri, 1550",
+      "education": [
+        {
+          "educationId": 1,
+          "degree": "M.B.A",
+          "college": "H.V.P.M.",
+          "startDate": "Nov 05 1983",
+          "passOutYear": 2014,
+          "percentage": 60,
+          "backlog": 3
+        },
+        {
+          "educationId": 2,
+          "degree": "M.E.",
+          "college": "Vidhya Bharti",
+          "startDate": "Feb 15 1991",
+          "passOutYear": 1971,
+          "percentage": 60,
+          "backlog": 3
+        }
+      ]
+    }
+  ]
+}
